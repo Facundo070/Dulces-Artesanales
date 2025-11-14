@@ -1,0 +1,124 @@
+body {
+  font-family: 'Georgia', serif;
+  background-color: #fff8e1;
+  color: #333;
+  font-size: 16px;
+}
+
+nav {
+  background-color: #fff8e1;
+  padding: 15px 0;
+  box-shadow: 0 2px 5px rgba(245, 232, 232, 0.1);
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+  font-size: 18px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #8b4513;
+  font-weight: bold;
+  padding: 10px 16px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  display: inline-block;
+}
+
+nav li a:hover {
+  background-color: #d2b48c;
+  color: white;
+  transform: translateY(-2px);
+}
+#contacto h2 {
+  font-size: 36px;
+  color: #8b4513;
+  margin-bottom: 40px;
+  text-align: center;
+  letter-spacing: 1px;
+  position: relative;
+  top: 5px;
+  
+}
+#contacto h4 {
+  font-size: 20px;
+  color: #8b4513;
+  margin-bottom: 40px;
+  text-align: center;
+  letter-spacing: 1px;
+  
+}
+.info {
+  background-color: #fff8e1;
+  border: 2px solid #d2b48c;
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+  width: 400px;
+  color: #8b4513;
+  
+}
+.material-symbols-outlined {
+  font-size: 25px;
+  color: #8b4513;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+.form {
+  position: relative;
+  top: -469px;
+  background-color: #fff8e1;
+  border: 2px solid #d2b48c;
+  border-radius: 12px;
+  padding: 30px;
+  max-width: 500px;
+  margin: 40px auto;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  font-family: 'Georgia', serif;
+  color: #8b4513;
+}
+
+.form form {
+  
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form input,
+.form textarea {
+  padding: 10px;
+  border: 1px solid #d2b48c;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #fff;
+  font-family: inherit;
+}
+
+.form button {
+  background-color: #8b4513;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #a0522d;
+}

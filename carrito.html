@@ -1,18 +1,31 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Carrito</title>
-  <link rel="stylesheet" href="Style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="carrito.css">
 </head>
 <body>
-  <section id="carrito">
-    <h2>Tu carrito</h2>
+    <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="catalogo.html">Catálogo de dulces artesanales</a></li>
+                <li><a href="recetas.html">Recetas</a></li>
+                <li><a href="promociones.html">Promociones</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="carrito.html">Carrito </a></li>
+                <li><a href="registro.html">Registrate</a></li>
+                
+            </ul>
+    </nav>
+    <section id="carrito">
+    <h2>Mi Carrito</h2>
     <div class="items-carrito">
 
     </div>
-    <button onclick="vaciarCarrito()">Vaciar carrito</button>
-  </section>
+    <button class="vaciarCarrito" onclick="vaciarCarrito()">Vaciar carrito</button>
+    </section>
 
   <script>
     const carrito = JSON.parse(localStorage.getItem("carrito")) || [];

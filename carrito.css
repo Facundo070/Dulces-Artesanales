@@ -1,0 +1,106 @@
+body {
+  font-family: 'Georgia', serif;
+  background-color: #fff8e1;
+  color: #333;
+  font-size: 16px;
+}
+
+nav {
+  background-color: #fff8e1;
+  padding: 15px 0;
+  box-shadow: 0 2px 5px rgba(245, 232, 232, 0.1);
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+  font-size: 18px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #8b4513;
+  font-weight: bold;
+  padding: 10px 16px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  display: inline-block;
+}
+
+nav li a:hover {
+  background-color: #d2b48c;
+  color: white;
+  transform: translateY(-2px);
+}
+
+#carrito {
+  padding: 60px 20px;
+  background-color: #fff8e1;
+  max-width: 1200px;
+  margin: 0 auto;
+    
+}
+
+#carrito h2 {
+  font-size: 36px;
+  color: #8b4513;
+  margin-bottom: 30px;
+  text-align: center;
+  letter-spacing: 1px;
+  position: relative;
+  top: -55px;
+}
+
+.items-carrito {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+ 
+}
+.item-carrito{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #fff;
+  border: 2px solid #d2b48c;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.item-carrito img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  
+}
+
+.item-carrito span {
+  font-size: 18px;
+  color: #8b4513;
+  font-weight: bold;
+
+}
+.vaciarCarrito {
+  margin-top: auto;
+  background-color: #a0522d;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
+  position: relative;
+  top: 30px;
+}
